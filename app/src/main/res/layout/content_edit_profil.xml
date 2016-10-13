@@ -10,16 +10,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Nama"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
         <EditText
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edit_nama"
+            android:hint="Nama Pengguna"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
@@ -56,16 +51,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Nomor Hp"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
         <EditText
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edit_nomor"
+            android:hint="Nomor Hp"
+            android:inputType="number"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
@@ -73,16 +64,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Alamat"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
         <EditText
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edit_alamat"
+            android:hint="Alamat"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout

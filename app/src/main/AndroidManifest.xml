@@ -28,7 +28,8 @@
         <activity android:name=".AdminValidasi" />
         <activity android:name=".EditPostJual" />
         <activity android:name=".BeliBarang" />
-        <activity android:name=".LihatPostSaya"></activity>
+        <activity android:name=".LihatPostSaya" />
+        <activity android:name=".BuatPostJualToko"></activity>
     </application>
 
 </manifest>
