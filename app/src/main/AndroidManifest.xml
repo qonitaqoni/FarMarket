@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AdminLihatPost" />
+        <activity
+            android:name=".AdminLihatPost"
+            android:label="Admin Lihat Post"
+            android:parentActivityName=".AdminMenu"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminMenu" />
+        </activity>
         <activity android:name=".AdminMenu" />
         <activity android:name=".MenuUtama" />
         <activity android:name=".BuatPostSewa" />
@@ -25,7 +33,15 @@
         <activity android:name=".LihatPostJasa" />
         <activity android:name=".LihatPostJual" />
         <activity android:name=".LihatPostSewa" />
-        <activity android:name=".AdminValidasi" />
+        <activity
+            android:name=".AdminValidasi"
+            android:label="Admin Validasi"
+            android:parentActivityName=".AdminMenu"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminMenu" />
+        </activity>
         <activity android:name=".EditPostJual" />
         <activity android:name=".BeliBarang" />
         <activity android:name=".LihatPostSaya" />

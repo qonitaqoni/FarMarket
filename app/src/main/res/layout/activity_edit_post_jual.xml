@@ -10,4 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.qonita.farmarket.EditPostJual">
 
+    <include layout="@layout/content_edit_post_jual" />
+
+
 </RelativeLayout>

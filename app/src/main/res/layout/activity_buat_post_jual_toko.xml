@@ -10,4 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.qonita.farmarket.BuatPostJualToko">
 
+    <include layout="@layout/content_buat_post_jual_toko" />
+
+
 </RelativeLayout>
